@@ -1,0 +1,58 @@
+export const initialMovies = [
+  {
+    country: 'USA',
+    name: 'Avatar',
+    director: '	James Cameron',
+    releaseYear: '2009',
+    img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/b/b0/Avatar-Teaser-Poster.jpg/250px-Avatar-Teaser-Poster.jpg',
+  },
+  {
+    country: 'USA',
+    name: 'Interestelar',
+    director: 'Christopher Nolan',
+    releaseYear: '2014',
+    img: 'https://br.web.img3.acsta.net/c_310_420/pictures/14/10/31/20/39/476171.jpg',
+  },
+  {
+    country: 'Brasil',
+    name: 'O Auto da Compadecida',
+    director: 'Guel Arraes',
+    releaseYear: '2000',
+    img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/b/bf/O_auto_da_compadecida.jpg/230px-O_auto_da_compadecida.jpg',
+  },
+  {
+    country: 'Espanha',
+    name: 'Os Outros',
+    director: 'Alejandro Amenábar',
+    releaseYear: '2001',
+    img: 'https://upload.wikimedia.org/wikipedia/pt/3/34/Outros_2001.jpg',
+  },
+  {
+    country: 'USA',
+    name: 'Todo Mundo em Pânico 4',
+    director: 'David Zucker',
+    releaseYear: '2006',
+    img: 'https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/19/14/19872942.jpg',
+  },
+  {
+    country: 'USA',
+    name: 'O Hobbit: Uma jornada inesperada',
+    director: 'Peter Jackson',
+    releaseYear: '2012',
+    img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/2/2d/The_Hobbit_An_Unexpected_Journey_2012.jpg/230px-The_Hobbit_An_Unexpected_Journey_2012.jpg',
+  },
+  {
+    country: 'USA',
+    name: 'Coringa',
+    director: 'Todd Phillips',
+    releaseYear: '2019',
+    img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/6/63/Joker_%282019%29.jpg/250px-Joker_%282019%29.jpg',
+  },
+  {
+    country: 'USA',
+    name: 'Matrix',
+    director: 'Lana Wachowski',
+    releaseYear: '1999',
+    img: 'https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG',
+  },
+];

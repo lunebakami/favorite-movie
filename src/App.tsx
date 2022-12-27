@@ -3,47 +3,12 @@ import AddMovieModal from './components/AddMovieModal';
 import Movie from './components/Movie';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { AddButton, Container, GlobalStyle } from './styles';
+import { initialMovies } from './utils/initialMovies';
 import { sortMoviesByYear } from './utils/sortMovies';
 
 function App() {
   const [showModal, setShowModal] = useState(false);
-  const [movies, setMovies] = useLocalStorage('movies', [
-    {
-      country: 'Brasil',
-      name: 'Cidade de Deus',
-      director: 'N sei',
-      releaseYear: '2001',
-      img: 'https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg',
-    },
-    {
-      country: 'Brasil',
-      name: 'Cidade de Deus',
-      director: 'N sei',
-      releaseYear: '1999',
-      img: 'https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg',
-    },
-    {
-      country: 'Brasil',
-      name: 'Cidade de Deus',
-      director: 'N sei',
-      releaseYear: '1997',
-      img: 'https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg',
-    },
-    {
-      country: 'Brasil',
-      name: 'Cidade de Deus',
-      director: 'N sei',
-      releaseYear: '1998',
-      img: 'https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg',
-    },
-    {
-      country: 'Brasil',
-      name: 'Cidade de Deus',
-      director: 'N sei',
-      releaseYear: '2001',
-      img: 'https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg',
-    },
-  ]);
+  const [movies, setMovies] = useLocalStorage('movies', initialMovies);
 
   const [orderedMovies, setOrderedMovies] = useState<Array<Movie>>([]);
 
